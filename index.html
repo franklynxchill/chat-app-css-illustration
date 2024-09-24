@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/dist/style.css">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+</head>
+<body class="font-primaryFont">
+  <main class=" md:h-[190vh] relative overflow-hidden">
+    <section class="flex flex-col items-center justify-center h-[210vh] md:flex-row relative overflow-hidden md:h-[180vh]">
+      <section class="flex absolute top-0 left-[-7rem] md:left-[-10rem]">
+        <!-- container -->
+        <div class="relative flex">
+          <!-- shape -->
+          <div class="w-[20rem] h-[40rem] rounded-b-[22rem] bg-gradient-to-r from-magenta to-violet md:w-[28rem] md:h-[50rem]"></div>
+          <!-- phone -->
+          <div class="border-[.8rem] border-white bg-appBackground w-[18.3rem] rounded-[2.1rem] absolute top-[7rem] left-[10rem] md:left-[23rem]  shadow-2xl">
+            <!--  sub heading -->
+            <div class="bg-gradient-to-r from-magenta to-violet py-5 mt-[.08rem] rounded-xl rounded-tl-[1rem] rounded-tr-[1rem] relative">
+              <div class=" absolute top-[-0.5rem] left-[3.4rem] w-[10rem] rounded-2xl py-4 bg-white"></div>
+              <div class="flex items-center justify-between px-4 pt-4">
+                <!-- main group -->
+                <div class="flex items-center gap-x-4">
+                  <!-- icon -->
+                  <button><i class="fa fa-chevron-left" aria-hidden="true"></i></button>
+                  <!-- profile -->
+                  <div class="flex items-center gap-x-2">
+                    <div class="rounded-full border-2 border-white w-[2rem] ">
+                      <img src="/images/avatar.jpg" alt="avatar" class="rounded-full">
+                    </div>
+                    <div class="flex flex-col">
+                      <h2 class="text-white font-bold text-base">Samuel Green</h2>
+                      <span class="text-[.7rem] text-subHeading">Available to Walk</span>
+                    </div>
+                  </div>
+                  <!-- end profile -->
+                </div>
+                <!-- menu -->
+                <button class="text-white">:</button>
+              </div>
+            </div>
+            <!-- end sub heading -->
+
+            <!-- phone container -->
+            <div class="px-3 pt-3 pb-1">
+              <!-- chat Left -->
+              <div class="text-chatLeft bg-placeholderText w-[10.4rem] p-2 text-[.6rem]  rounded-2xl pl-3 pr-5 mb-3 rounded-bl-md">
+                <p>
+                  That sounds great. I’d be happy to discuss more.
+                </p>
+              </div>
+              <!-- chat Left -->
+              <div class="text-chatLeft bg-placeholderText w-[10.4rem] p-2 text-[.6rem] rounded-2xl pl-3 pr-5 mb-5 rounded-bl-md">
+                <p>
+                  Could you send over some pictures of your dog, please?
+                </p>
+              </div>
+              <!-- chat right -->
+              <section class="ml-[4.5rem]  mb-2 flex flex-col items-end">
+                <div class="flex gap-x-2">
+                  <img src="/images/dog-image-1.jpg" alt="dog image 1" class="w-[2.9rem] rounded-lg">
+                  <img src="/images/dog-image-2.jpg" alt="dog image 2" class="w-[2.9rem] rounded-lg">
+                  <img src="/images/dog-image-3.jpg" alt="dog image 3" class="w-[2.9rem] rounded-lg">
+                </div>
+                <div class="text-chatRight bg-white w-[9.9rem] p-2 text-[.6rem] rounded-2xl pl-3 mt-3 rounded-br-md">
+                  <p>
+                    Here are a few pictures. She’s a happy girl!
+                  </p>
+                </div>
+                <div class="text-chatRight bg-white w-[6.4rem] p-2 text-[.6rem]  rounded-2xl pl-3 mt-3 rounded-br-md">
+                  <p>
+                    Can you make it?
+                  </p>
+                </div>
+              </section>
+              <!-- end chat right -->
+
+              <!-- chat Left -->
+              <div class="text-chatLeft w-[10.2rem] p-2 text-[.6rem]  bg-placeholderText rounded-2xl pl-3 pr-5 mb-3 mt-5 rounded-bl-md">
+                <p>
+                  She looks so happy! The time we discussed works. How long shall I take her out for?
+                </p>
+              </div>
+              <!-- chat Left -->
+              <div class="flex justify-between bg-gradient-to-r from-magenta to-violet w-[12rem]  py-2 px-3 rounded-2xl rounded-bl-md ">
+                <div class="flex items-center gap-x-3">
+                  <span class="w-[1rem] h-[1rem] rounded-full border-2 border-buttonOutline"></span>
+                  <p class="text-[.6rem]">30 minute walk</p>
+                </div>
+                <span class="text-white font-bold text-sm">$29</span>
+              </div>
+              <!-- chat Left -->
+              <div class="flex justify-between bg-gradient-to-r from-magenta to-violet w-[12rem] py-2 px-3 rounded-2xl rounded-bl-md mt-3">
+                <div class="flex items-center gap-x-3">
+                  <span class="w-[1rem] h-[1rem] rounded-full border-2 border-buttonOutline"></span>
+                  <p class="text-[.6rem]">1 hour walk</p>
+                </div>
+                <span class="text-white font-bold text-sm">$49</span>
+              </div>
+              <!-- form -->
+              <form action="" class="py-2 w-full mt-2 relative flex items-center">
+                <input type="text" name="text" id="text" class="w-full rounded-full py-2 px-4 outline-none" placeholder="Type a message…">
+                <button class="px-[0.6rem] py-[0.15rem] bg-button rounded-full absolute right-2 top-[1rem] text-sm text-white"><i class="fa fa-chevron-right" aria-hidden="true"></i></button>
+              </form>
+            </div>
+          </div>
+          <!-- end phone -->
+        </div>
+      </section>
+      <!-- content -->
+      <section class="w-[24rem] mx-auto text-center mt-[50rem] md:w-[25.8rem] md:text-left md:mt-0 md:ml-[35rem] z-20">
+        <h1 class="text-mainHeading font-medium mb-5 text-[2.7rem] md:text-4xl">Simple booking</h1>
+        <p class="text-paragraph text-[1.09rem] px-[1.7rem] md:px-0 md:text-[1rem] md:w-[28rem] leading-[1.7rem]">
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+          discuss arrangements and make bookings. Once the walk has been completed you can rate 
+          your walker and book again all through the chat.
+        </p>
+      </section>
+    </section>
+      <!-- shape -->
+      <section class="hidden md:absolute md:block md:bottom-0 md:right-[-10rem]">
+        <div class="bg-placeholderText md:w-[28rem] rounded-t-full md:h-[45rem]"></div>
+      </section>
+      <div class="text-center mb-8 text-paragraph">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-violet">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/franklynxchill" class="text-violet">Franklynxchill</a>.
+      </div>
+  </main>
+  <script src="https://kit.fontawesome.com/12acbe389d.js" crossorigin="anonymous"></script>
+</body>
+</html>
