@@ -1160,6 +1160,14 @@ i {
     right: -55rem;
   }
 
+  .md\:right-\[-80rem\] {
+    right: -80rem;
+  }
+
+  .md\:right-\[-70rem\] {
+    right: -70rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
